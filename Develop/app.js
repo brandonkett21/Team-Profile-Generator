@@ -25,7 +25,7 @@ const pickOne = () => {
       {
         type: "list",
         name: "Employee role",
-        message: "What is the persons role in this comoany?",
+        message: "What position does this person have within the company?",
         choices: ["Engineer", "Intern", "Manager", "No more employees"],
       },
     ])
@@ -49,7 +49,7 @@ const pickTwo = () => {
           {
             type: "input",
             name: "GitHub Username",
-            message: "What is the engineer github name",
+            message: "What is the Engineer's GitHub name?",
           },
         ])
         .then((userName) => {
@@ -67,7 +67,7 @@ const pickTwo = () => {
           {
             type: "input",
             name: "Office Number",
-            message: "What is the manager's phone number?",
+            message: "What is the manager's office number?",
           },
         ])
         .then((office) => {
@@ -85,7 +85,7 @@ const pickTwo = () => {
           {
             type: "input",
             name: "School Name",
-            message: "What is the school name of an intern",
+            message: "Where does the intern currently attend school?",
           },
         ])
         .then((sponsor) => {
